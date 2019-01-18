@@ -51,7 +51,7 @@
 
         <TextView
             android:id="@+id/tiitle"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
@@ -62,6 +62,7 @@
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
             android:textColor="@android:color/background_light"
+            android:textSize="18sp"
             android:textStyle="bold"
             android:typeface="sans"
             app:fontFamily="serif"
